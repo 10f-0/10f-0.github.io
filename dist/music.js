@@ -4,6 +4,12 @@ const ap = new APlayer({
     autoplay: false,
     audio: [
       {
+        name: "Children of the Dark",
+        artist: 'Mono Inc',
+        url: 'https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/music/Children_of_the_Dark_2021__-_Mono_Inc.mp3',
+        cover: 'https://infinitelyfreedom.gitee.io/music/img/22.jpg',
+      },
+      {
         name: "やわらかな光",
         artist: 'やまだ豊',
         url: 'https://infinitelyfreedom.gitee.io/music/%E3%82%84%E3%81%BE%E3%81%A0%E8%B1%8A%20(%E5%B1%B1%E7%94%B0%E8%B1%8A)%20-%20%E3%82%84%E3%82%8F%E3%82%89%E3%81%8B%E3%81%AA%E5%85%89%20(%E6%9F%94%E5%92%8C%E4%B9%8B%E5%85%89).mp3',
