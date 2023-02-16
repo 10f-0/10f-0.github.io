@@ -7,7 +7,7 @@ const ap = new APlayer({
         name: "Children of the Dark",
         artist: 'Mono Inc',
         url: 'https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/music/Children_of_the_Dark_2021__-_Mono_Inc.mp3',
-        cover: 'https://infinitelyfreedom.gitee.io/music/img/22.jpg',
+        cover: 'https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/music/img/1.jpg',
       },
       {
         name: "やわらかな光",
