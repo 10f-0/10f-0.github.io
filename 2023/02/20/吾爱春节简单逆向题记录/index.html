@@ -301,7 +301,7 @@
 <p>下载exe运行一看有长度要求<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/2.jpg"></p>
 <p>CFF查看是32位程序 上IDA看到main函数就是<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/3.jpg"><br>长度是29没问题<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/4.jpg"><br>判断逻辑<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/5.jpg"><br>导出要进行对比的29个值<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/6.jpg"><br>第一个值右移两位是f 第二个是l ,依次类推<br>得到flag是 flag{52PoJie2023HappyNewYear}<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/7.jpg"></p>
 <p>白嫖50币,同时也使账号活跃一下避免长期没登录再次被删除…<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/baipiao.jpg"></p>
-<p>###x64dbg<br>在exe模块里面右键搜索字符串,双击到汇编处分析<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/8.jpg"><br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/9.jpg"><br>输入29个字符, 40132E处对比长度, 等于29就跳转</p>
+<h3 id="x64dbg"><a href="#x64dbg" class="headerlink" title="x64dbg"></a>x64dbg</h3><p>在exe模块里面右键搜索字符串,双击到汇编处分析<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/8.jpg"><br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/9.jpg"><br>输入29个字符, 40132E处对比长度, 等于29就跳转</p>
 <p>EBX是每个字符的值,把修改jne为je, 在je处下断点, 一直循环29次即可获取完整flag<br><img src="https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/blogimgs/1/10.jpg"></p>
 
     </div>
@@ -476,15 +476,15 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 10.445627340677248px;" class="tag-cloud-link">博客</a>
+    <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 8.018121416088523px;" class="tag-cloud-link">博客</a>
     
-    <a href="/tags/Linux/" style="font-size: 17.007880291555665px;" class="tag-cloud-link">Linux</a>
+    <a href="/tags/Linux/" style="font-size: 13.492138739852063px;" class="tag-cloud-link">Linux</a>
     
-    <a href="/tags/QT/" style="font-size: 13.622322819918331px;" class="tag-cloud-link">QT</a>
+    <a href="/tags/QT/" style="font-size: 11.133834672558908px;" class="tag-cloud-link">QT</a>
     
-    <a href="/tags/Access%E6%B3%A8%E5%85%A5/" style="font-size: 15.831715677610614px;" class="tag-cloud-link">Access注入</a>
+    <a href="/tags/Access%E6%B3%A8%E5%85%A5/" style="font-size: 14.570530510637742px;" class="tag-cloud-link">Access注入</a>
     
-    <a href="/tags/%E9%80%86%E5%90%91/" style="font-size: 19.17998968653845px;" class="tag-cloud-link">逆向</a>
+    <a href="/tags/%E9%80%86%E5%90%91/" style="font-size: 18.73331093440499px;" class="tag-cloud-link">逆向</a>
     
 </div>
                 
