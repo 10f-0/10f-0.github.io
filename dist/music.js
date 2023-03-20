@@ -16,6 +16,12 @@ const ap = new APlayer({
         cover: 'https://infinitelyfreedom.gitee.io/music/img/22.jpg',
       },
       {
+        name: "篇章",
+        artist: '张韶涵、王赫野',
+        url: 'https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/music/%E7%AF%87%E7%AB%A0-%E5%BC%A0%E9%9F%B6%E6%B6%B5;%20%E7%8E%8B%E8%B5%AB%E9%87%8E;%20.mp3',
+        cover: 'https://jihulab.com/Wow1/wow.gitlab.io/-/raw/main/music/img/1.jpg',
+      },
+      {
         name: "竈門炭治郎のうた",
         artist: '椎名豪、中川奈美',
         url: 'https://infinitelyfreedom.gitee.io/music/%E6%A4%8E%E5%90%8D%E8%B1%AA%E3%80%81%E4%B8%AD%E5%B7%9D%E5%A5%88%E7%BE%8E%20-%20%E7%AB%88%E9%96%80%E7%82%AD%E6%B2%BB%E9%83%8E%E3%81%AE%E3%81%86%E3%81%9F%20(%E7%81%B6%E9%97%A8%E7%82%AD%E6%B2%BB%E9%83%8E%E4%B9%8B%E6%AD%8C).mp3',
